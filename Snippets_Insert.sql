@@ -21,10 +21,10 @@ ALTER PROC [dbo].[Snippet_Insert]
 AS
 
 /*-----------Test Code-----------
-DECLARE @Name NVARCHAR(200)				= 'Test Snippet'
+DECLARE @Name NVARCHAR(200)					= 'Test Snippet'
 		,@Code NVARCHAR(50)				= 'BP'
-		,@Logo NVARCHAR(255)			= 'https://SnippetLogo.url'
-		,@SiteUrl NVARCHAR(255)			= 'https://SnippetSiteUrl.com'
+		,@Logo NVARCHAR(255)				= 'https://SnippetLogo.url'
+		,@SiteUrl NVARCHAR(255)				= 'https://SnippetSiteUrl.com'
 		,@ColorHEX nchar(7)				= '#f28500'
 		,@StatusId INT					= 2
 		,@RegionTypeId INT				= 1
